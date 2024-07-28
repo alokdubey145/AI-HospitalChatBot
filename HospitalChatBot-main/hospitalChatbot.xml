@@ -1,0 +1,8 @@
+<aiml version="1.0.1" encoding="UTF-8">
+     <category>
+           <pattern>LOAD PRAC 2</pattern>
+           <template>
+                  <learn>/content/hospitalChatbot.aiml</learn>
+           </template>
+     </category>
+</aiml>

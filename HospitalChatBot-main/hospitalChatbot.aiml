@@ -1,0 +1,520 @@
+<aiml version="2.0">
+
+  <!-- Greetings and Introductions -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>Hello! How can I assist you today?</template>
+  </category>
+
+  <category>
+    <pattern>HI</pattern>
+    <template>Hi there! What can I help you with?</template>
+  </category>
+
+  <category>
+    <pattern>HOW ARE YOU</pattern>
+    <template>I'm just a chatbot, but I'm here to help you! How can I assist you today?</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR NAME</pattern>
+    <template>My name is HealthBot. How can I assist you?</template>
+  </category>
+
+  <!-- General Information -->
+  <category>
+    <pattern>WHAT CAN YOU DO</pattern>
+    <template>I can help answer your questions about our hospital services, provide health tips, and assist with appointment scheduling. How can I help you today?</template>
+  </category>
+
+  <category>
+    <pattern>WHO CREATED YOU</pattern>
+    <template>I was created by the team at [Hospital Name] to assist with your inquiries.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS AI</pattern>
+    <template>AI stands for Artificial Intelligence. It's the simulation of human intelligence processes by machines, especially computer systems.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS A CHATBOT</pattern>
+    <template>A chatbot is an AI program designed to simulate conversation with users, especially over the Internet. How can I assist you today?</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR PURPOSE</pattern>
+    <template>My purpose is to assist you with your questions and provide information about our hospital and services. How can I help you today?</template>
+  </category>
+
+  <!-- Personal and Fun Interactions -->
+  <category>
+    <pattern>WHAT IS THE WEATHER</pattern>
+    <template>I'm unable to provide real-time weather updates, but you can check your local weather service for the latest information.</template>
+  </category>
+
+  <category>
+    <pattern>TELL ME A JOKE</pattern>
+    <template>Why did the scarecrow win an award? Because he was outstanding in his field!</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU LIKE MUSIC</pattern>
+    <template>As a chatbot, I don't have personal preferences, but I can tell you that music is a great way to relax and enjoy your day!</template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU DANCE</pattern>
+    <template>I wish I could, but I'm just a chatbot. Do you enjoy dancing?</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE COLOR</pattern>
+    <template>As a chatbot, I don't have preferences, but many people love the color blue. What about you?</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE FRIENDS</pattern>
+    <template>I interact with many people like you, so I have a lot of virtual friends!</template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU TELL ME A STORY</pattern>
+    <template>Once upon a time, there was a friendly chatbot named HealthBot who loved helping people with their questions. And they all lived happily ever after. How can I assist you today?</template>
+  </category>
+
+  <!-- Random and Miscellaneous Questions -->
+  <category>
+    <pattern>WHAT IS THE MEANING OF LIFE</pattern>
+    <template>The meaning of life is a philosophical question, but many believe it's about finding happiness and purpose. What do you think?</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS LOVE</pattern>
+    <template>Love is a deep feeling of affection and care towards someone or something. It's a beautiful emotion that many people cherish.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU BELIEVE IN ALIENS</pattern>
+    <template>As a chatbot, I don't have beliefs, but the idea of extraterrestrial life is certainly fascinating! What do you think?</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE CAPITAL OF FRANCE</pattern>
+    <template>The capital of France is Paris. It's a beautiful city known for its art, fashion, and culture.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS 2 PLUS 2</pattern>
+    <template>2 plus 2 equals 4.</template>
+  </category>
+
+  <category>
+    <pattern>HOW OLD ARE YOU</pattern>
+    <template>I'm just a program, so I don't age, but I was created to help answer your questions and assist you!</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS YOUR FAVORITE MOVIE</pattern>
+    <template>As a chatbot, I don't watch movies, but many people love classics like "The Shawshank Redemption" and "The Godfather". What's your favorite movie?</template>
+  </category>
+
+  <!-- Ending Conversations -->
+  <category>
+    <pattern>THANK YOU</pattern>
+    <template>You're welcome! If you have any other questions, feel free to ask.</template>
+  </category>
+
+  <category>
+    <pattern>BYE</pattern>
+    <template>Goodbye! Have a great day and stay healthy!</template>
+  </category>
+
+  <category>
+    <pattern>GOODBYE</pattern>
+    <template>Goodbye! Feel free to come back if you have more questions. Stay safe!</template>
+  </category>
+
+  <!-- General Information -->
+  <category>
+    <pattern>WHAT ARE YOUR OPENING HOURS</pattern>
+    <template>Our hospital is open 24/7. Visiting hours for general wards are from 9 AM to 9 PM.</template>
+  </category>
+
+  <category>
+    <pattern>WHEN IS THE HOSPITAL OPEN</pattern>
+    <template>Our hospital is open 24/7. Visiting hours for general wards are from 9 AM to 9 PM.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE HOSPITAL'S CONTACT NUMBER</pattern>
+    <template>You can contact us at [hospital phone number].</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I CONTACT THE HOSPITAL</pattern>
+    <template>You can contact us at [hospital phone number].</template>
+  </category>
+
+  <category>
+    <pattern>WHERE IS THE HOSPITAL LOCATED</pattern>
+    <template>The hospital is located at [hospital address].</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE HOSPITAL'S ADDRESS</pattern>
+    <template>The hospital is located at [hospital address].</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE PARKING FACILITIES</pattern>
+    <template>Yes, we have ample parking facilities available for patients and visitors.</template>
+  </category>
+
+  <category>
+    <pattern>IS THERE PARKING AVAILABLE</pattern>
+    <template>Yes, we have ample parking facilities available for patients and visitors.</template>
+  </category>
+
+  <category>
+    <pattern>IS THE HOSPITAL ACCESSIBLE BY PUBLIC TRANSPORT</pattern>
+    <template>Yes, the hospital is accessible by public transport. You can take bus number X or Y to reach us.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I REACH THE HOSPITAL BY BUS</pattern>
+    <template>You can take bus number X or Y to reach us.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I REACH THE HOSPITAL BY TRAIN</pattern>
+    <template>The nearest train station is [station name]. From there, you can take bus number X or Y to reach us.</template>
+  </category>
+
+  <!-- Appointment Booking -->
+  <category>
+    <pattern>HOW CAN I BOOK AN APPOINTMENT</pattern>
+    <template>Sure, I can help with that. Please provide your name and the department you want to visit.</template>
+  </category>
+
+  <category>
+    <pattern>I WANT TO SCHEDULE A DOCTOR'S VISIT</pattern>
+    <template>Sure, I can help with that. Please provide your name and the department you want to visit.</template>
+  </category>
+
+  <category>
+    <pattern>CAN YOU CONFIRM MY APPOINTMENT</pattern>
+    <template>Please provide your appointment reference number.</template>
+  </category>
+
+  <category>
+    <pattern>I WANT TO CHECK MY APPOINTMENT DETAILS</pattern>
+    <template>Please provide your appointment reference number.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I CANCEL MY APPOINTMENT</pattern>
+    <template>You can cancel your appointment by calling our reception at [hospital phone number].</template>
+  </category>
+
+  <category>
+    <pattern>CAN I RESCHEDULE MY APPOINTMENT</pattern>
+    <template>Yes, you can reschedule your appointment by calling our reception at [hospital phone number].</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I RESCHEDULE MY APPOINTMENT</pattern>
+    <template>You can reschedule your appointment by calling our reception at [hospital phone number].</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PROCESS FOR BOOKING AN APPOINTMENT</pattern>
+    <template>You can book an appointment by calling our reception at [hospital phone number] or through our website.</template>
+  </category>
+
+  <!-- Services and Departments -->
+  <category>
+    <pattern>WHAT SERVICES DO YOU OFFER</pattern>
+    <template>We offer a range of services including cardiology, neurology, orthopedics, and more. For more details, visit our services page.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE CARDIOLOGY SERVICES</pattern>
+    <template>Yes, we have a comprehensive cardiology department with experienced specialists.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE NEUROLOGY SERVICES</pattern>
+    <template>Yes, we have a comprehensive neurology department with experienced specialists.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE ORTHOPEDIC SERVICES</pattern>
+    <template>Yes, we have a comprehensive orthopedics department with experienced specialists.</template>
+  </category>
+
+  <category>
+    <pattern>WHERE IS THE CARDIOLOGY DEPARTMENT LOCATED</pattern>
+    <template>The cardiology department is located on the 2nd floor. Follow the signs or ask at the information desk for assistance.</template>
+  </category>
+
+  <category>
+    <pattern>I NEED TO FIND THE RADIOLOGY DEPARTMENT</pattern>
+    <template>The radiology department is located on the 3rd floor. Follow the signs or ask at the information desk for assistance.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE A MATERNITY WARD</pattern>
+    <template>Yes, we have a fully equipped maternity ward with experienced staff.</template>
+  </category>
+
+  <category>
+    <pattern>WHERE IS THE EMERGENCY DEPARTMENT LOCATED</pattern>
+    <template>The emergency department is located on the ground floor. Follow the signs or ask at the information desk for assistance.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE VISITING HOURS FOR THE MATERNITY WARD</pattern>
+    <template>Visiting hours for the maternity ward are from 10 AM to 8 PM.</template>
+  </category>
+
+  <!-- Doctor Information -->
+  <category>
+    <pattern>IS DR SMITH AVAILABLE FOR AN APPOINTMENT</pattern>
+    <template>Dr. Smith is available on Mondays and Wednesdays. Would you like to book an appointment?</template>
+  </category>
+
+  <category>
+    <pattern>WHEN CAN I SEE DR BROWN</pattern>
+    <template>Dr. Brown is available on Tuesdays and Thursdays. Would you like to book an appointment?</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE A PEDIATRICIAN</pattern>
+    <template>Yes, we have several pediatricians available. Dr. Johnson is our chief pediatrician. Would you like to book an appointment?</template>
+  </category>
+
+  <category>
+    <pattern>WHO IS THE BEST NEUROLOGIST IN YOUR HOSPITAL</pattern>
+    <template>Dr. Adams is our chief neurologist and comes highly recommended. Would you like to book an appointment?</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I FIND A SPECIALIST</pattern>
+    <template>You can find a specialist by visiting our website or contacting our reception at [hospital phone number].</template>
+  </category>
+
+  <category>
+    <pattern>WHO ARE THE DOCTORS AVAILABLE TODAY</pattern>
+    <template>Please visit our website or contact our reception at [hospital phone number] for today's doctor availability.</template>
+  </category>
+
+  <!-- Billing and Insurance -->
+  <category>
+    <pattern>HOW CAN I PAY MY BILL</pattern>
+    <template>You can pay your bill online, at the billing counter, or via bank transfer. For more details, visit our billing page.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE PAYMENT OPTIONS</pattern>
+    <template>You can pay your bill online, at the billing counter, or via bank transfer. For more details, visit our billing page.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU ACCEPT XYZ INSURANCE</pattern>
+    <template>We accept most major insurance plans including XYZ. For specific queries, please contact our billing department.</template>
+  </category>
+
+  <category>
+    <pattern>IS MY INSURANCE PLAN ACCEPTED</pattern>
+    <template>We accept most major insurance plans including XYZ. For specific queries, please contact our billing department.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I GET A COPY OF MY BILL</pattern>
+    <template>You can request a copy of your bill at the billing counter or by calling our billing department at [hospital phone number].</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE BILLING PROCESS</pattern>
+    <template>Our billing process involves generating an invoice after your treatment. You can pay your bill online, at the billing counter, or via bank transfer.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I CHECK MY OUTSTANDING BALANCE</pattern>
+    <template>You can check your outstanding balance by calling our billing department at [hospital phone number].</template>
+  </category>
+
+  <!-- Health Tips and Advice -->
+  <category>
+    <pattern>CAN YOU GIVE ME SOME HEALTH TIPS</pattern>
+    <template>Sure! Eating a balanced diet, exercising regularly, and getting enough sleep are key to good health. For more personalized advice, please consult our dietitian.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I IMPROVE MY DIET</pattern>
+    <template>Sure! Eating a balanced diet, exercising regularly, and getting enough sleep are key to good health. For more personalized advice, please consult our dietitian.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE SYMPTOMS OF COVID-19</pattern>
+    <template>Common symptoms include fever, cough, and difficulty breathing. To protect yourself, wear a mask, maintain social distance, and wash your hands regularly.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I PROTECT MYSELF FROM COVID-19</pattern>
+    <template>Common symptoms include fever, cough, and difficulty breathing. To protect yourself, wear a mask, maintain social distance, and wash your hands regularly.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT SHOULD I EAT FOR A BALANCED DIET</pattern>
+    <template>A balanced diet includes a variety of foods such as fruits, vegetables, whole grains, lean proteins, and healthy fats. For personalized advice, please consult our dietitian.</template>
+  </category>
+
+  <category>
+    <pattern>HOW MUCH EXERCISE SHOULD I GET</pattern>
+    <template>It is recommended to get at least 150 minutes of moderate-intensity exercise per week. For personalized advice, please consult our fitness expert.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE BENEFITS OF REGULAR EXERCISE</pattern>
+    <template>Regular exercise can help improve your cardiovascular health, strengthen muscles, reduce stress, and enhance overall well-being. For personalized advice, please consult our fitness expert.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I IMPROVE MY SLEEP QUALITY</pattern>
+    <template>To improve sleep quality, maintain a regular sleep schedule, create a relaxing bedtime routine, and avoid caffeine and electronics before bed. For personalized advice, please consult our sleep specialist.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE SOME TIPS FOR REDUCING STRESS</pattern>
+    <template>To reduce stress, try practicing mindfulness, engaging in physical activity, staying connected with loved ones, and getting enough sleep. For personalized advice, please consult our mental health specialist.</template>
+  </category>
+
+  <!-- Emergency Information -->
+  <category>
+    <pattern>WHAT SHOULD I DO IN AN EMERGENCY</pattern>
+    <template>In case of an emergency, please call our emergency hotline at [emergency phone number] or visit the emergency department directly.</template>
+  </category>
+
+  <category>
+    <pattern>WHO DO I CONTACT FOR AN EMERGENCY</pattern>
+    <template>In case of an emergency, please call our emergency hotline at [emergency phone number] or visit the emergency department directly.</template>
+  </category>
+
+  <category>
+    <pattern>HOW DO I PERFORM CPR</pattern>
+    <template>For CPR, place your hands on the center of the chest and push hard and fast. For detailed instructions, please visit our first aid page or consult a medical professional.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT SHOULD I DO FOR A BURN INJURY</pattern>
+    <template>For minor burns, cool the burn under running water for at least 10 minutes. For severe burns, seek medical attention immediately. For detailed instructions, please visit our first aid page or consult a medical professional.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I GET FIRST AID ADVICE</pattern>
+    <template>You can get first aid advice by visiting our first aid page or calling our emergency hotline at [emergency phone number].</template>
+  </category>
+
+  <category>
+    <pattern>WHAT SHOULD I DO IF SOMEONE IS CHOKING</pattern>
+    <template>If someone is choking, perform the Heimlich maneuver by standing behind them and giving quick, upward abdominal thrusts. For detailed instructions, please visit our first aid page or consult a medical professional.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I TREAT A SPRAIN</pattern>
+    <template>To treat a sprain, follow the R.I.C.E. method: Rest, Ice, Compression, and Elevation. For detailed instructions, please visit our first aid page or consult a medical professional.</template>
+  </category>
+
+  <!-- Additional Questions -->
+  <category>
+    <pattern>HOW CAN I ACCESS MY MEDICAL RECORDS</pattern>
+    <template>You can request access to your medical records by contacting our medical records department at [hospital phone number] or visiting our records office.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PROCESS FOR GETTING MY MEDICAL RECORDS</pattern>
+    <template>You can request access to your medical records by contacting our medical records department at [hospital phone number] or visiting our records office.</template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DOES IT TAKE TO GET MEDICAL RECORDS</pattern>
+    <template>The processing time for medical records requests is typically 3-5 business days. For urgent requests, please contact our medical records department.</template>
+  </category>
+
+  <category>
+    <pattern>CAN I REQUEST MEDICAL RECORDS ONLINE</pattern>
+    <template>Yes, you can request medical records online through our website. Please visit the medical records section for more information.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I PROVIDE FEEDBACK ABOUT MY VISIT</pattern>
+    <template>You can provide feedback about your visit by filling out a feedback form on our website or contacting our patient relations department at [hospital phone number].</template>
+  </category>
+
+  <category>
+    <pattern>WHO DO I CONTACT FOR PATIENT COMPLAINTS</pattern>
+    <template>You can contact our patient relations department at [hospital phone number] for any complaints or concerns.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I VOLUNTEER AT THE HOSPITAL</pattern>
+    <template>You can volunteer at the hospital by filling out a volunteer application form on our website or contacting our volunteer services department at [hospital phone number].</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE REQUIREMENTS FOR VOLUNTEERING</pattern>
+    <template>The requirements for volunteering include completing a volunteer application, attending an orientation session, and passing a background check. For more details, please visit our volunteer services page.</template>
+  </category>
+
+  <category>
+    <pattern>DO YOU HAVE A BLOOD DONATION CENTER</pattern>
+    <template>Yes, we have a blood donation center located on the 1st floor. For more information, please visit our blood donation page.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I DONATE BLOOD</pattern>
+    <template>You can donate blood by visiting our blood donation center located on the 1st floor. For more information, please visit our blood donation page.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT ARE THE REQUIREMENTS FOR BLOOD DONATION</pattern>
+    <template>The requirements for blood donation include being in good health, weighing at least 110 pounds, and being at least 17 years old. For more information, please visit our blood donation page.</template>
+  </category>
+
+  <category>
+    <pattern>CAN I DONATE BLOOD IF I HAVE A TATTOO</pattern>
+    <template>Yes, you can donate blood if your tattoo was done at a licensed facility and is fully healed. For more information, please visit our blood donation page.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PROCESS FOR BLOOD DONATION</pattern>
+    <template>The process for blood donation includes registration, a brief health screening, the donation itself, and a short recovery period. For more information, please visit our blood donation page.</template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DOES A BLOOD DONATION TAKE</pattern>
+    <template>A blood donation typically takes about an hour from start to finish, including registration, health screening, donation, and recovery. For more information, please visit our blood donation page.</template>
+  </category>
+
+  <category>
+    <pattern>HOW CAN I GET A PRESCRIPTION REFILL</pattern>
+    <template>You can request a prescription refill by contacting our pharmacy at [hospital phone number] or through our online refill request form on our website.</template>
+  </category>
+
+  <category>
+    <pattern>WHAT IS THE PROCESS FOR GETTING A PRESCRIPTION REFILL</pattern>
+    <template>You can request a prescription refill by contacting our pharmacy at [hospital phone number] or through our online refill request form on our website.</template>
+  </category>
+
+  <category>
+    <pattern>CAN I REQUEST A PRESCRIPTION REFILL ONLINE</pattern>
+    <template>Yes, you can request a prescription refill online through our website. Please visit the pharmacy section for more information.</template>
+  </category>
+
+  <category>
+    <pattern>HOW LONG DOES IT TAKE TO GET A PRESCRIPTION REFILL</pattern>
+    <template>The processing time for prescription refills is typically 1-2 business days. For urgent requests, please contact our pharmacy.</template>
+  </category>
+</aiml>
